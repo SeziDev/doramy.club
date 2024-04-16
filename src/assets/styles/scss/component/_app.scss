@@ -1,0 +1,98 @@
+// navbar
+.navbar {
+    padding: 10px 0;
+    background-image: url(../public/images/flowers.png);
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../public/images/flowers.png);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    height: auto;
+    width: 100%;
+
+    .logo {
+        width: 220px;
+        height: 38px;
+    }
+
+    .control {
+        .input {
+            background: rgba(167, 167, 167, 0.7);
+            border-radius: 4px;
+            border: none;
+            height: 35px;
+            padding-left: 10px;
+            &:hover {
+                background: #fff;
+                
+            }
+        }
+
+        .input::placeholder {
+            color: #fff;
+        }
+    }
+}
+
+
+
+// footer
+
+.footer {
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #222;
+    }
+    &__link{
+        color: #222;
+        font-size: 15px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    b{
+        color: #f8513c;
+        font-size: 15px;
+    }
+    li{
+        list-style: none;
+    }
+}
+
+
+// title and description
+.title {
+    font-size: 21px;
+    font-weight: 400;
+    color: #333;
+    .red-letter{
+        color: #f00;
+    }
+}
+.description {
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+}
+
+// top-button
+.top-button{
+    background: #faecec;
+    color: #222;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    transition: all .1s;
+    margin-right: 10px;
+    &:hover{
+        background: #ec7263;
+        color: #fff;
+    }
+}
+.top:left{
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-image: url(/public/top-images/ot.svg);
+}
+
